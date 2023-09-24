@@ -14,8 +14,8 @@ public void addSongToPlaylist() throws InterruptedException {
     String expectedSongAddedMessage ="Added 1 song into \"Test Pro playlist\ "
 }
 navigateToPage();
-provideEmail("demo@class.com");
-providePassword("te$t$tudent");
+provideEmail();
+providePassword();
 clickSubmit();
 Thread.sleep(millis:2000);
 searchSong(name: "It's Your Birthday");

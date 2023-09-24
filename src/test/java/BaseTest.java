@@ -16,10 +16,10 @@ public class BaseTest {
 
     @Test
     public void ValidEmailPassword(){
-        public void provideEmail(){
+            public void provideEmail(){
             WebElement provideEmail = driver.findElement(By.CssSelector"[type = 'email']"));
             provideEmail.clear();
-            provideEmail.sendKeys("demo@class.com");
+            provideEmail.sendKeys("MayMay02@testpro.io");
         }
 
             public void providePassword(){
